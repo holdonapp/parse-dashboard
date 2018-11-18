@@ -2,7 +2,7 @@
   "apps": [{
     "serverURL": "https://hold-ios.herokuapp.com/parse",
     "appId": "HOLD123",
-    "masterKey": "HOLD!@#$%",
+    "masterKey": "HOLD12345",
     "appName": "hold-ios",
     "iconName": "",
     "primaryBackgroundColor": "",
