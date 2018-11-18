@@ -13,10 +13,10 @@ const express = require('express');
 const parseDashboard = require('./app');
 
 const program = require('commander');
-program.option('--appId [appId]', 'the app Id of the app you would like to manage.');
-program.option('--masterKey [masterKey]', 'the master key of the app you would like to manage.');
-program.option('--serverURL [serverURL]', 'the server url of the app you would like to manage.');
-program.option('--appName [appName]', 'the name of the app you would like to manage. Optional.');
+program.option('--appId HOLD123', 'the app Id of the app you would like to manage.');
+program.option('--masterKey HOLD12345', 'the master key of the app you would like to manage.');
+program.option('--serverURL http://localhost:1337/parse', 'the server url of the app you would like to manage.');
+program.option('--appName hold-ios', 'the name of the app you would like to manage. Optional.');
 program.option('--config [config]', 'the path to the configuration file');
 program.option('--host [host]', 'the host to run parse-dashboard');
 program.option('--port [port]', 'the port to run parse-dashboard');
