@@ -1,6 +1,6 @@
 {
   "apps": [{
-    "serverURL": "https://hold-ios.herokuapp.com/parse",
+    "serverURL": "'http://localhost:1337/parse'",
     "appId": "HOLD123",
     "masterKey": "HOLD12345",
     "appName": "hold-ios",
